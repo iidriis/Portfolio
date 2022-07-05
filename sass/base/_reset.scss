@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body {
+    font-family: $site-fonts;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-right: auto;
+    margin-left: auto;
+}

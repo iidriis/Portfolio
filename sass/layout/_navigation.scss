@@ -1,0 +1,29 @@
+.sitenav{
+    padding: 3.2rem 0rem;
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+    
+    &__link{ 
+        font-size: 1.8rem; 
+        line-height: 1.23;
+        font-weight: bold;
+        color: $brand-color;
+        text-decoration: none;
+        line-height: 1.24;
+    }
+    &__link:hover{
+        color: $black-color;
+        
+    }
+    .active {
+        color: $black-color;
+    }
+    .active:hover {
+        opacity: 0.6;
+        
+    }
+}

@@ -1,0 +1,49 @@
+.footer{
+    &__text-wrappder{
+        h2{
+            margin-top: 11.4rem;
+        }
+        h3{
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+        a{
+            padding: 1rem 2.9rem;
+            text-decoration: none;
+
+            background-color: black;
+            color: white;
+            border-radius: 40px;
+        }
+        text-align: center;
+    }
+    &__social-media{
+        margin-top: 5rem;
+    }
+    &__social-list{
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+    }
+    &__social-item:not(:last-child){
+        margin-right: 5rem;
+    }
+    &__social-item{
+        img{
+            cursor: pointer;
+        }
+        img:hover{
+            opacity: 0.5;
+        }
+    }
+    h4{
+        
+        text-align: center;
+        margin-top: 6rem;
+        padding-bottom: 5rem;
+        font-weight: medium;
+        font-size: 1.4rem;
+        color: $brand-color;
+    }
+}

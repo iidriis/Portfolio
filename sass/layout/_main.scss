@@ -1,0 +1,116 @@
+.main{
+    margin-top: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: #F6F6F6;
+    &__about-wrapper{
+        h2{
+            font-size: 3.4rem;
+            line-height: 1.23;
+            margin-bottom: 3rem;
+        }
+        p{
+            font-size: 1.8rem;
+            line-height: 1.21;
+            font-weight: medium;
+        }
+        text-align: center;
+    }
+    &__skills{
+        padding-bottom: 5rem;
+        margin-top: 10rem;
+        h2{
+            padding: 9.1rem;
+            padding-bottom: 7rem;
+            text-align: center
+        }
+        h3{
+            text-align: center
+        }
+        background-color: white;
+    }
+    &__skills-list{
+        list-style-type: none;
+        
+    }
+    &__skills-item{
+        margin-bottom: 5rem;
+        display: flex;
+        align-items: center;
+    }
+    &__skills-item:nth-child(1){
+        margin-top: 1rem;
+    }
+    &__skills-hr{
+        border-radius: 10px;
+        background-color: $brand-color;
+        border: solid 3px $brand-color;
+        margin-left: 3rem;
+        width: 60rem;
+    }
+    &__black-hr{
+        position: absolute;
+        border-radius: 10px;
+        margin-left: 11.1rem;
+        border: 3px solid black;
+        background-color: blue;
+        width: 60rem; 
+    }
+    &__black-hr-two{
+        position: absolute;
+        border-radius: 10px;
+        margin-left: 11.1rem;
+        border: 3px solid black;
+        background-color: red;
+        width: 80rem; 
+    }
+    &__black-hr-three{
+        position: absolute;
+        border-radius: 10px;
+        margin-left: 11.1rem;
+        border: 3px solid black;
+        background-color: darkorchid;
+        width: 60rem; 
+    }
+    &__black-hr-four{
+        position: absolute;
+        border-radius: 10px;
+        margin-left: 11.1rem;
+        border: 3px solid black;
+        background-color: green;
+        width: 70rem; 
+    }
+    
+    &__nav{
+        @include container;
+    }
+    &__portfolio{
+        text-align: center;
+        h2{
+            font-weight: bold;
+            margin-top: 11.2rem;
+            margin-bottom: 4.7rem;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        a{
+            display: block;
+            margin-top: 5rem;
+            text-decoration: underline;
+            color: black;
+        }
+        a:hover{
+            color: rgb(13, 13, 149);
+        }
+    }
+    &__house-vop{
+        margin-top: 10rem;
+    }
+    &__velo-city{
+        margin-top: 10rem;
+    }
+    
+}
