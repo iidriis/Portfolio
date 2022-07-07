@@ -1,6 +1,9 @@
 .sitenav{
     padding: 3.2rem 0rem;
     &__list{
+        @include responsive (phone){
+            display: none;
+        }
         display: flex;
         align-items: center;
         justify-content: space-between;

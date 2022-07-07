@@ -9,13 +9,13 @@
 
 @mixin responsive($breakpoints) {
     @if ($breakpoints == m-phone)  {
-        @media only screen and (max-width:440px ) {@content}
+        @media only screen and (max-width: 440px ) { @content }
     };
     @if ($breakpoints == phone)  {
-        @media only screen and (max-width:576px ) {@content}
+        @media only screen and (max-width: 576px ) { @content }
     };
     @if ($breakpoints == tables)  {
-        @media only screen and (max-width:768px ) {@content}
+        @media only screen and (max-width: 768px ) {@content}
     };
     @if($breakpoint == middle-table) {
         @media only screen and (max-width: 885px) { @content }
@@ -24,6 +24,6 @@
         @media only screen and (max-width: 993px) {@content}
     };
     @if ($breakpoints == desktop)  {
-        @media only screen and (max-width: 1210px) {@content}
+        @media only screen and (max-width: 1200px) {@content}
     }
 }
