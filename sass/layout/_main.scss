@@ -44,47 +44,53 @@
     &__skills-hr{
         border-radius: 10px;
         background-color: $brand-color;
-        border: solid 3px $brand-color;
+        border: solid 2px $brand-color;
         margin-left: 3rem;
-        width: 60rem;
+        width: 100%;
+        max-width: 60rem;
     }
     &__black-hr{
         position: absolute;
         border-radius: 10px;
         margin-left: 11.1rem;
-        border: 3px solid black;
+        border: 2px solid black;
         background-color: blue;
-        width: 60rem; 
+        width: 100%;
+        max-width: 60rem; 
     }
     &__black-hr-two{
         position: absolute;
         border-radius: 10px;
         margin-left: 11.1rem;
-        border: 3px solid black;
+        border: 2px solid black;
         background-color: red;
-        width: 80rem; 
+        max-width: 80rem; 
+        width: 100%;
     }
     &__black-hr-three{
+        width: 100%;
         position: absolute;
         border-radius: 10px;
         margin-left: 11.1rem;
-        border: 3px solid black;
+        border: 2px solid black;
         background-color: darkorchid;
-        width: 60rem; 
+        max-width: 60rem; 
     }
     &__black-hr-four{
         position: absolute;
         border-radius: 10px;
         margin-left: 11.1rem;
-        border: 3px solid black;
+        border: 2px solid black;
         background-color: green;
-        width: 70rem; 
+        width: 100%;
+        max-width: 70rem; 
     }
     
     &__nav{
         @include container;
     }
     &__portfolio{
+        
         text-align: center;
         h2{
             font-weight: bold;
@@ -92,11 +98,15 @@
             margin-bottom: 4.7rem;
         }
         img{
+            max-width: 936.24px;
+            object-fit: cover;
+            width: 100%;
             display: block;
             margin-left: auto;
             margin-right: auto;
         }
         a{
+            transition: 0.5s ease;
             display: block;
             margin-top: 5rem;
             text-decoration: underline;
@@ -104,6 +114,7 @@
         }
         a:hover{
             color: rgb(13, 13, 149);
+            transform: skewY(0.1rad);
         }
     }
     &__house-vop{

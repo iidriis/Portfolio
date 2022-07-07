@@ -6,8 +6,8 @@
         justify-content: space-between;
         list-style: none;
     }
-    
     &__link{ 
+        transition: 0.5s ease;
         font-size: 1.8rem; 
         line-height: 1.23;
         font-weight: bold;
@@ -15,6 +15,7 @@
         text-decoration: none;
         line-height: 1.24;
     }
+    
     &__link:hover{
         color: $black-color;
         
