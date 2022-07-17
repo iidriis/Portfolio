@@ -55,4 +55,22 @@
         font-size: 1.4rem;
         color: $brand-color;
     }
+    &__telega-item{
+        
+        h2{
+            cursor: pointer;
+            border-radius: 4rem;
+            font-size: 1.6rem;
+            padding: 1.2rem;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            position: absolute;
+            display: none;
+        }
+    }
+    &__telega-item:hover{
+        h2{
+            display: block;
+        }
+    }
 }

@@ -17,7 +17,7 @@
     @if ($breakpoints == tables)  {
         @media only screen and (max-width: 768px ) {@content}
     };
-    @if($breakpoint == middle-table) {
+    @if($breakpoints == middle-table) {
         @media only screen and (max-width: 885px) { @content }
     };
     @if ($breakpoints == big-table)  {
