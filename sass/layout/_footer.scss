@@ -55,7 +55,7 @@
         font-size: 1.4rem;
         color: $brand-color;
     }
-    &__telega-item{
+    &__social-item{
         
         h2{
             cursor: pointer;
@@ -68,7 +68,7 @@
             display: none;
         }
     }
-    &__telega-item:hover{
+    &__social-item:hover{
         h2{
             display: block;
         }
